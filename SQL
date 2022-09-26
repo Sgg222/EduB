@@ -1,4 +1,5 @@
-Select section, count(*) as [No. of Candidates greater than or equal to 75 marks]
+Select section, count(EnrollmentNo) as [No. of Candidates greater than or equal to 75 marks]
 from student
+where marks>=75
 group by section
-having marks >=75
+
