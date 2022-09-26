@@ -1,0 +1,4 @@
+Select section, count(*) as [No. of Candidates greater than or equal to 75 marks]
+from student
+group by section
+having marks >=75
